@@ -1,5 +1,5 @@
 local aging = {}
-aging.agingSpeed = 1
+aging.agingSpeed = 3600
 local timers = {
                 "speedTimer",
                 "hotbarTimer",
