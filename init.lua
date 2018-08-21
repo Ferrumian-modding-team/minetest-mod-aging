@@ -297,7 +297,7 @@ function create_age(player)
     local playerName = player:get_player_name()
     aging.agingPeople[playerName] = {}
     aging.agingPeople[playerName].name = playerName
-    aging.agingPeople[playerName].age = 0
+    aging.agingPeople[playerName].age = 18
     aging.agingPeople[playerName].immortality = false
     aging.agingPeople[playerName].inheritance = false
     cure(player)
